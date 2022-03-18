@@ -4,17 +4,31 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 S_SRCS += \
-../src/soma_v.s 
+../src/max_v.s \
+../src/number_vector.s \
+../src/soma_v.s \
+../src/values.s \
+../src/vowels.s 
 
 C_SRCS += \
-../src/FICHA1_AC.c 
+../src/Ex2a.c \
+../src/FICHA1_AC.c \
+../src/ex4c.c 
 
 OBJS += \
+./src/Ex2a.o \
 ./src/FICHA1_AC.o \
-./src/soma_v.o 
+./src/ex4c.o \
+./src/max_v.o \
+./src/number_vector.o \
+./src/soma_v.o \
+./src/values.o \
+./src/vowels.o 
 
 C_DEPS += \
-./src/FICHA1_AC.d 
+./src/Ex2a.d \
+./src/FICHA1_AC.d \
+./src/ex4c.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
