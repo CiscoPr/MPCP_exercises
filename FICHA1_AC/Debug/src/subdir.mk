@@ -6,6 +6,7 @@
 S_SRCS += \
 ../src/max_v.s \
 ../src/number_vector.s \
+../src/palindrome.s \
 ../src/soma_v.s \
 ../src/values.s \
 ../src/vowels.s 
@@ -21,6 +22,7 @@ OBJS += \
 ./src/ex4c.o \
 ./src/max_v.o \
 ./src/number_vector.o \
+./src/palindrome.o \
 ./src/soma_v.o \
 ./src/values.o \
 ./src/vowels.o 
